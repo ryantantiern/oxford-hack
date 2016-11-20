@@ -1,25 +1,24 @@
 <!doctype html>
 <html>
-  <head>
-    <h1>Bad Word Deleter Config</h1>
-  </head>
-  <body>
-    Please enter your trigger words.
-    <br/>
-    <label>Bad Word:</label><input id="badword" type="text" />
-    <br/>
-    <label>Good Word:</label><input id="goodword" type="text" />
-    <br/>
-    <input id="btn-save" type="button" value="Save"/>
-    <input id="btn-reset" type="button" value="Reset"/>
-    <br/>
-    <br/>
-    <div>
-      <div><b>Your Trigger Words</b></div>
-      <ul id="ul-output">
-      </ul>
-    </div>
-  </body>
-  <script src="jquery-2.1.4.min.js"></script>
-  <script src="settings.js"></script>
+    <head></head>
+    <body>
+        <div style="width:21%; margin:0 auto;">
+            <h1>Bad Word Deleter Config</h1>
+            <p>Please enter your trigger words.</p>    
+            <label>Bad Word:</label><input id="badword" type="text" /><br/>
+            <label>Good Word:</label><input id="goodword" type="text" /> <br/>
+            <input id="btn-save" type="button" value="Save"/>
+            <div>
+                <div>
+                    <b>Your Trigger Words</b>
+                </div>
+                <ul id="ul-output"></ul>
+            </div>
+            <label>Remove Word:</label><input id="deleteWord" type="text" /> 
+            <input id="btn-del" type="button" value="Remove" style="margin-top: 10px;" /><br />
+            <input id="btn-reset" type="button" value="Reset" style="margin-top: 10px; padding: 5px;" /><br/>
+        </div>
+    </body>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="settings.js"></script>
 </html>
